@@ -1,1 +1,2 @@
-include ':app'
+include ':app', ':videffectsLib'
+project(':videffectsLib').projectDir = new File('videffects')
